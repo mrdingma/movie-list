@@ -1330,10 +1330,10 @@ eval("/* harmony export (immutable) */ __webpack_exports__[\"a\"] = _assertThisI
 /*!*******************************************!*\
   !*** ./src/actions/toggleMovieDetails.js ***!
   \*******************************************/
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar toggleMovieDetails = function toggleMovieDetails(id) {\n  return {\n    type: 'TOGGLE_MOVIE_DETAILS',\n    id: id\n  };\n};\n\nexports.default = toggleMovieDetails;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTA1LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL3NyYy9hY3Rpb25zL3RvZ2dsZU1vdmllRGV0YWlscy5qcz9mNDZiIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHRvZ2dsZU1vdmllRGV0YWlscyA9IChpZCkgPT4gKHtcbiAgdHlwZTogJ1RPR0dMRV9NT1ZJRV9ERVRBSUxTJyxcbiAgaWRcbn0pO1xuXG5leHBvcnQgZGVmYXVsdCB0b2dnbGVNb3ZpZURldGFpbHM7XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHNyYy9hY3Rpb25zL3RvZ2dsZU1vdmllRGV0YWlscy5qcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUZBO0FBQUE7QUFDQTtBQUlBIiwic291cmNlUm9vdCI6IiJ9");
+eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open '/Users/student/movie-list/src/actions/toggleMovieDetails.js'\");//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTA1LmpzIiwic291cmNlcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlUm9vdCI6IiJ9");
 
 /***/ }),
 /* 106 */
