@@ -1,9 +1,7 @@
-import redux from 'redux';
-
-const search = (q) => ({
+const searchText = (q) => ({
   type: 'CHANGE_SEARCH_TEXT',
   q
 });
 
 
-export default search;
+export default searchText;

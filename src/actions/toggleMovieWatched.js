@@ -1,6 +1,8 @@
-const toggleMovieWatched = (id) => ({
+// in the movies reducer
+
+const toggleMovieWatched = (title) => ({
   type: 'TOGGLE_MOVIE_WATCHED',
-  id
+  title
 });
 
 export default toggleMovieWatched;
