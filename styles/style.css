@@ -1,8 +1,39 @@
 @import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
 body {
-  background: #f1f1f1;
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #f5f5f5;
+	color: #4d4d4d;
+	min-width: 230px;
+	max-width: 1000px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 300;
 }
+
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	-webkit-appearance: none;
+	appearance: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.smallWatchButton {
+  float: right;
+}
+
+
 
 .navbar {
   background: #fff;
@@ -37,7 +68,7 @@ body {
   box-shadow: 0 1px 0 rgba(0,0,0,0.10);
 }
 
-.video-player-details {
+.movie-player-details {
   background: #fff;
   padding: 8px;
   border: 0;
@@ -45,23 +76,25 @@ body {
   margin-top: 10px;
 }
 
-.video-list {
+.movie-list {
   background: #fff;
   padding: 8px;
   border: 0;
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
 }
 
-.video-list-entry {
+.movie-list-entry {
   font-size: 16px;
-  padding: 8px;
+  padding: 40px;
+  border-style: solid;
+  border-color: black;
 }
 
-.video-list-entry-title {
+.movie-list-entry-title {
   font-weight: bold;
 }
 
-.video-list-entry-title:hover {
+.movie-list-entry-title:hover {
   color: #e62117;
   cursor: pointer;
 }
